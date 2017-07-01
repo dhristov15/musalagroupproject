@@ -23,7 +23,7 @@
 1498757759 c:\users\toso\desktop\oop\proekt\konferencija\cdate.h
 	"CAbstract.h"
 
-1498789018 source:c:\users\toso\desktop\oop\proekt\konferencija\main.cpp
+1498859212 source:c:\users\toso\desktop\oop\proekt\konferencija\main.cpp
 	<iostream>
 	"CPerson.h"
 	"CDate.h"
@@ -32,6 +32,7 @@
 	"CStudent.h"
 	"CTeacher.h"
 	"CDelegat.h"
+	"CConference.h"
 	<string>
 
 1498782836 source:c:\users\toso\desktop\oop\proekt\konferencija\chotel.cpp
@@ -71,7 +72,7 @@
 	<string>
 	"CPerson.h"
 
-1498788958 c:\users\toso\desktop\oop\proekt\konferencija\cdelegat.h
+1498865780 c:\users\toso\desktop\oop\proekt\konferencija\cdelegat.h
 	<string>
 	"CTeacher.h"
 	"CPaper.h"
@@ -85,5 +86,16 @@
 	"CPaper.h"
 	"CHotel.h"
 	"CStudent.h"
+	"CDelegat.h"
+
+1498866080 source:c:\users\toso\desktop\oop\proekt\konferencija\cconference.cpp
+	<iostream>
+	"CConference.h"
+	"CDelegat.h"
+	"CTeacher.h"
+	<string>
+
+1498865611 c:\users\toso\desktop\oop\proekt\konferencija\cconference.h
+	<string>
 	"CDelegat.h"
 

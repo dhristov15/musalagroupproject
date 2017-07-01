@@ -12,11 +12,11 @@ using namespace std;
 CDelegat::CDelegat()
 {
     m_numd=0;
-    m_datein=0;
-    m_dateout=0;
+    m_datein="";
+    m_dateout="";
     m_night_num=0;
 }
-CDelegat::CDelegat(int n,int din,int dout,int nn,string ns,int courss,string specs,string np,int ep,string namet,string titlet,string dutyt,string science,string tp,int te,string pname,int pnum,string hname,int hnum,int hprice)
+CDelegat::CDelegat(int n,int nn,string din,string dout,string ns,int courss,string specs,string np,int ep,string namet,string titlet,string dutyt,string science,string tp,int te,string pname,int pnum,string hname,int hnum,int hprice)
         :CStudent(ns,courss,specs,np,ep),CTeacher(namet,titlet,dutyt,science,tp,te),CPaper(pname,pnum),CHotel(hname,hnum,hprice)
 {
     Setnumd(n);
@@ -28,6 +28,7 @@ CDelegat::CDelegat(int n,int din,int dout,int nn,string ns,int courss,string spe
 void CDelegat::Read()
 {
     int d;
+    string s;
     cout<<"TEACHER"<<endl;
     CTeacher::Read();
     cout<<"STUDENT"<<endl;
@@ -44,11 +45,11 @@ void CDelegat::Read()
     cin>>d;
     Setnight_num(d);
     cout<<"Insert comming date : ";
-    cin>>d;
-    Setdatein(d);
+    cin>>s;
+    Setdatein(s);
     cout<<"Insert leaving date : ";
-    cin>>d;
-    Setdateout(d);
+    cin>>s;
+    Setdateout(s);
     cout<<endl;
 
 }

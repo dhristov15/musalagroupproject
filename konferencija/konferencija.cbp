@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="CAbstract.cpp" />
 		<Unit filename="CAbstract.h" />
+		<Unit filename="CConference.cpp" />
+		<Unit filename="CConference.h" />
 		<Unit filename="CDate.cpp" />
 		<Unit filename="CDate.h" />
 		<Unit filename="CDelegat.cpp" />
