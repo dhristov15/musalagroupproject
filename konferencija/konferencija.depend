@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1498756356 source:c:\users\toso\desktop\oop\proekt\konferencija\cabstract.cpp
+	<iostream>
+	"CAbstract.h"
+
+1498756565 c:\users\toso\desktop\oop\proekt\konferencija\cabstract.h
+
+1498757390 source:c:\users\toso\desktop\oop\proekt\konferencija\cperson.cpp
+	<iostream>
+	"CPerson.h"
+	"CAbstract.h"
+	<string>
+
+1498757042 c:\users\toso\desktop\oop\proekt\konferencija\cperson.h
+	<string>
+	"CAbstract.h"
+
+1498758089 source:c:\users\toso\desktop\oop\proekt\konferencija\cdate.cpp
+	<iostream>
+	"CDate.h"
+	"CAbstract.h"
+
+1498757759 c:\users\toso\desktop\oop\proekt\konferencija\cdate.h
+	"CAbstract.h"
+
+1498789018 source:c:\users\toso\desktop\oop\proekt\konferencija\main.cpp
+	<iostream>
+	"CPerson.h"
+	"CDate.h"
+	"CHotel.h"
+	"CPaper.h"
+	"CStudent.h"
+	"CTeacher.h"
+	"CDelegat.h"
+	<string>
+
+1498782836 source:c:\users\toso\desktop\oop\proekt\konferencija\chotel.cpp
+	<iostream>
+	"CHotel.h"
+
+1498782886 c:\users\toso\desktop\oop\proekt\konferencija\chotel.h
+	<string>
+	"CAbstract.h"
+
+1498823758 source:c:\users\toso\desktop\oop\proekt\konferencija\cpaper.cpp
+	<iostream>
+	"CPaper.h"
+	<string>
+
+1498783092 c:\users\toso\desktop\oop\proekt\konferencija\cpaper.h
+	"CAbstract.h"
+	<string>
+
+1498783682 c:\users\toso\desktop\oop\proekt\konferencija\cstudent.h
+	<string>
+	"CPerson.h"
+
+1498823725 source:c:\users\toso\desktop\oop\proekt\konferencija\cstudent.cpp
+	<iostream>
+	"CStudent.h"
+	"CPaper.h"
+	<string>
+
+1498823710 source:c:\users\toso\desktop\oop\proekt\konferencija\cteacher.cpp
+	<iostream>
+	"CTeacher.h"
+	"CPerson.h"
+	<string>
+
+1498785618 c:\users\toso\desktop\oop\proekt\konferencija\cteacher.h
+	<string>
+	"CPerson.h"
+
+1498788958 c:\users\toso\desktop\oop\proekt\konferencija\cdelegat.h
+	<string>
+	"CTeacher.h"
+	"CPaper.h"
+	"CHotel.h"
+	"CStudent.h"
+
+1498824106 source:c:\users\toso\desktop\oop\proekt\konferencija\cdelegat.cpp
+	<iostream>
+	<string>
+	"CTeacher.h"
+	"CPaper.h"
+	"CHotel.h"
+	"CStudent.h"
+	"CDelegat.h"
+
