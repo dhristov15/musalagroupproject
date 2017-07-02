@@ -64,7 +64,7 @@ int main()
         cout<<"3. Print Conference"<<endl;
         cout<<"4. Add new delegat"<<endl;
         cout<<"5. Delete one delegat for a given delegat number"<<endl;
-        cout<<"6. ??? "<<endl;
+        cout<<"6. Insert Delegat number to Update his data "<<endl;
         cout<<"7. Show the sum of rent price for all delegats"<<endl;
         cout<<"8. Show the first comming delegat in the hotel"<<endl;
         cout<<"9. Insert EGN of one Delegat to show his data"<<endl;
@@ -105,7 +105,7 @@ int main()
                 }
             case 6:
                 {
-
+                    c.Update();
                     break;
                 }
             case 7:

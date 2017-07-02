@@ -71,7 +71,7 @@ void CConference::Add()
     m_num++;
 
     m=new CDelegat[m_num];
-    for(i=0;i<m_num;i++)
+    for(i=0;i<m_num-1;i++)
     {
         m[i]=p[i];
     }
@@ -212,6 +212,58 @@ void CConference::Pay_sum()
     cout<<"The amount to pay for "<<fn<<" is : "<<sum<<endl;
 
 }
+int CConference::Update(int fn)
+{
+    for(int i=0;i<m_num;i++)
+    {
+        if(fn==m[i].Getnumd())
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+
+void CConference::Update()
+{
+    int fn,res;
+    cout<<endl;
+    cout<<"Insert Delegat number to Update his characteristic : ";
+    cin>>fn;
+    res=Update(fn);
+    if(res==-1)
+    {
+        cout<<"No such Delegat number " <<endl;
+    }
+    //trie go toe delegat so daden broj fakticki metodo delete e
+
+    int i,j;
+    CDelegat *p=m;
+    m_num--;
+    m=new CDelegat[m_num];
+    for(i=0,j=0;i<m_num;i++)
+    {
+        if(res!=i)
+        {
+            m[j++]=p[i];
+        }
+    }
+    delete []p;
+
+    //sega treba da vovezda nov delegat so vsicki novi dani ifakcticki metodo add povikuvam
+    CDelegat* o=m;
+    int t;
+    m_num++;
+
+    m=new CDelegat[m_num];
+    for(t=0;t<m_num-1;t++)
+    {
+        m[t]=o[t];
+    }
+    delete []o;
+    m[t].Read();
+}
+
 
 
 CConference::~CConference()

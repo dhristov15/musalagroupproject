@@ -31,6 +31,9 @@ class CConference
         //metodi za sumata na plastanje za edin hotel
         int Pay_sum(string);
         void Pay_sum();
+        //metodi za update t.e az she go napraa taka da za daden delegatski nomer she go istrie i she dade otnovo da vovezda komplet
+        int Update(int);
+        void Update();
 
     private:
         string m_place;
